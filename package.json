@@ -2,7 +2,7 @@
   "name": "psite",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +19,8 @@
   "devDependencies": {
     "eslint": "^7.1.0",
     "eslint-plugin-mocha": "^7.0.1",
-    "nconf": "^0.10.0"
+    "nconf": "^0.10.0",
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
     "@popperjs/core": "^2.4.0",

@@ -22,3 +22,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use((req, res, next) => {next();});
+
+app.get('/', function (req, res) {
+	
+	res.render('home');
+
+});
+
+const port = nconf.get('PORT') || 3000;
+app.listen(port);
+console.log(`server started on port ${port}`);
