@@ -9,7 +9,7 @@ body {
 }
 
 .navbg {
-    background-color: grey;
+    background-color: darkblue;
     outline: 2px solid black;
 }
 
@@ -34,21 +34,47 @@ a {
 
 a:hover {
     text-decoration: none;
+    color: white;
 }
 
 .title {
     text-align: center;
 }
 
-nav div .dropdown-menu {
-  display: none;
-}
-
-@media (max-width: 960px) {
-  nav div a  { display: none; }
-  nav div { display: inline-block; }
-}
-
 .row {
     text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Georgia;
+}
+
+.borbot {
+    border-bottom: 2px black solid;
+}
+
+.borbot2 {
+    border-bottom: 1px grey solid;
+}
+
+.middle {
+    background-color: azure;
+}
+
+.navtext {
+    color: white;
+}
+
+.formpt {
+    padding-left: 25%;
+}
+
+#contactform {
+    margin-top: 2px;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.middle, #contactform {
+    width: 100%;
 }
