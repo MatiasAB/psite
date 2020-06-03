@@ -29,6 +29,12 @@ app.get('/', function (req, res) {
 
 });
 
+app.get('/contact', function (req, res) {
+	
+	res.render('contact');
+
+});
+
 const port = nconf.get('PORT') || 3000;
 app.listen(port);
 console.log(`server started on port ${port}`);

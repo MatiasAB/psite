@@ -4,11 +4,27 @@ html {
     font-family: Roboto, sans-serif;
 }
 
+body {
+    max-width: 1468px;
+}
+
 .navbg {
     background-color: grey;
     outline: 2px solid black;
 }
 
+.foot {
+    position:relative;
+}
+
+.stool {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin-left: -50%;
+    right: 50%;
+    margin-right: -50%;
+}
 
 a {
     padding: 5px;
@@ -31,4 +47,8 @@ nav div .dropdown-menu {
 @media (max-width: 960px) {
   nav div a  { display: none; }
   nav div { display: inline-block; }
+}
+
+.row {
+    text-align: center;
 }
