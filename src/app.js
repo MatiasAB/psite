@@ -35,6 +35,11 @@ app.get('/contact', function (req, res) {
 
 });
 
+app.get('/portfolio', function (req, res) {
+
+	res.render('portfolio');
+});
+
 const port = nconf.get('PORT') || 3000;
 app.listen(port);
 console.log(`server started on port ${port}`);

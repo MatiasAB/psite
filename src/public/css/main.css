@@ -75,6 +75,15 @@ h1, h2, h3 {
     width: 100%;
 }
 
-.middle, #contactform {
-    width: 100%;
+#arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-height: 10%;
+    margin-top: 50%;
+}
+
+.blue-bg {
+    background-color: blue;
 }
