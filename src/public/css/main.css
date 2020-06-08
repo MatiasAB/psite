@@ -101,3 +101,11 @@ h1, h2, h3 {
 .blue-bg {
     background-color: blue;
 }
+
+.ohun {
+    width:100%;
+}
+
+a#splink:hover {
+    color: blue;
+}

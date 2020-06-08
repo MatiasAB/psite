@@ -40,6 +40,11 @@ app.get('/portfolio', function (req, res) {
 	res.render('portfolio');
 });
 
+app.get('/blackjack', function (req, res) {
+
+	res.render('blackjack');
+});
+
 const port = nconf.get('PORT') || 3000;
 app.listen(port);
 console.log(`server started on port ${port}`);
