@@ -98,10 +98,6 @@ h1, h2, h3 {
     margin-top: 50%;
 }
 
-.blue-bg {
-    background-color: blue;
-}
-
 .ohun {
     width:100%;
 }
@@ -114,10 +110,6 @@ a#splink:hover {
     background-color: lightgrey;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .got {
     color: gold;
 }
@@ -126,6 +118,30 @@ a#splink:hover {
     color: blue;
 }
 
+p.vod {
+    background-color: lightgrey;
+}
+
+h2.vod {
+    color: aqua;
+}
+
 .spin {
     color:#49fb35;
+}
+
+h2.got, h2.spin, h2.vod, h2.psite {
+    text-decoration: underline;
+}
+
+p.got, p.spin, p.vod, p.psite {
+    font-weight: bold;
+}
+
+p.psite {
+    background-color: lightgrey;
+}
+
+.follow {
+    padding-top: 5%;
 }
