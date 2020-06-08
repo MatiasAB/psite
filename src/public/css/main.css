@@ -109,3 +109,23 @@ h1, h2, h3 {
 a#splink:hover {
     color: blue;
 }
+
+.lgbg {
+    background-color: lightgrey;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.got {
+    color: gold;
+}
+
+.vod {
+    color: blue;
+}
+
+.spin {
+    color:#49fb35;
+}
