@@ -146,6 +146,27 @@ p.psite {
     padding-top: 5%;
 }
 
+.bjp {
+    width:100%;
+    height: 93.2%;
+}
+
+
+
+
+
 .hide {
     display:none;
+}
+
+.card {
+    display:inline-block;
+    border-radius: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: solid 2px;
+    width: 150px;
+    height: 225px;
+    background-color: white;
+    text-align: left;
 }
