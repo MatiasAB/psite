@@ -5,8 +5,6 @@ const app = express();
 const mongoose = require('mongoose');
 let nconf = require('nconf');
 
-
-
 nconf.env();
 
 app.set('view engine', 'hbs');
@@ -29,15 +27,14 @@ app.get('/', function (req, res) {
 
 });
 
-app.get('/contact', function (req, res) {
-	
-	res.render('contact');
-
-});
-
 app.get('/portfolio', function (req, res) {
 
 	res.render('portfolio');
+});
+
+app.get('/blackjack', function (req, res) {
+
+	res.render('blackjack');
 });
 
 const port = nconf.get('PORT') || 3000;
